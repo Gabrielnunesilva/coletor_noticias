@@ -130,6 +130,8 @@ urls = [
 for url in urls:
     try:
         rastreio = rastrear(url)
-        print(f"Dados gravados com sucesso | {url}")
+        print(f"Dados gravados com sucesso | {url}")    
     except:
         print(f"Não foi possivel rastrear a url {url}")
+    print("Aguarde...")
+print("Processo Finalizado!")
