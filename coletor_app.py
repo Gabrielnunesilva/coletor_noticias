@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from google.cloud import bigquery
 import csv
 import gdown
+import os
 
 def fazer_requisicao(url):
     # Faz a requisição HTTP para o site
@@ -134,4 +135,7 @@ for url in urls:
     except:
         print(f"Não foi possivel rastrear a url {url}")
     print("Aguarde...")
+# Exclui o arquivo criado anteriormente
+if os.path.exists("dados_noticias.csv"):
+    os.remove("dados_noticias.csv")
 print("Processo Finalizado!")
