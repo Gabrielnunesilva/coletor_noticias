@@ -31,11 +31,9 @@ pip install -r requirements.txt
 <br />
 
 4- Execute o arquivo:
-Para coletar as noticias:
+Para coletar as noticias, execute o app coletor_app.py  
 <br />
-execute o app coletor_app.py  
-<br />
-Para executar a API, execute o api_app.py
+Para pesquisar por API,  execute o api_app.py
 <br />
 
 # Sobre api_app.py
