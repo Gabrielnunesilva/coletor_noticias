@@ -40,6 +40,7 @@ def buscar_noticia_por_palavra(client, id_dataset, id_tabela, palavra_chave):
     return artigos
 
 def formatar_dados(artigos):
+    # Formata em html, deixando mais legivel quando acessado pela API
     html_template = """
     <html>
     <body>
