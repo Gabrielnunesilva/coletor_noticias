@@ -1,5 +1,8 @@
 # Abaixo segue o resumo da função dos apps dentro desse projeto
 
+# Para executar os programas desse projeto, é necessário instalar os pacotes do arquivo "requirements.txt"
+Isso pode ser feito atráves do comando "pip install -r requirements.txt"
+
 # coletor_app.py
 Coleta as noticias de um site e grava na BigQuery.
 
