@@ -17,8 +17,8 @@ O programa foi desenvolvimento em Python, utilizando algumas bibliotecas como be
 
 # Credenciais
 
-As credencias para acesso a BigQuery estão armazenadas em uma fonte externa (Bucket Aws), durante a execução dos arquivos, é feito o download das credencias para a pasta local do projeto. 
->Como é apenas uma base teste, não há problemas em expor a credencial. Caso esteja utilizando uma base real, ou com dados sensiveis, lembre-se de utilizar um meio para a chave segura, como o Google Secret Manager.
+As credenciais para acesso a BigQuery estão armazenadas em uma fonte externa (Bucket Aws), durante a execução dos arquivos, é feito o download das credencias para a pasta local do projeto. 
+>Como é apenas uma base teste, não há problemas em expor a credenciais. Caso esteja utilizando uma base real, ou com dados sensiveis, lembre-se de utilizar um meio para a chave segura, como o Google Secret Manager.
 
 <br />
 
