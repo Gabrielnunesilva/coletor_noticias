@@ -2,17 +2,26 @@
 
 ## Descrição do projeto:
 
-Este repositório tem como objetivo, encontrar uma solução para fazer a raspagem de um site de noticias, limpar os dados e armazenar no BigQuery (Google Cloud) e os disponibiliza para pesquisa via API
+Este repositório tem como objetivo, encontrar uma solução para fazer a raspagem de um site de noticias, limpar os dados e armazenar no BigQuery (Google Cloud) e os disponibiliza para pesquisa via API.
+>Nesse projeto, estaremos utilizando como base alguns links do site [`CNN Brasil`](https://www.cnnbrasil.com.br)
+
+
 <br />
 
 # Desenvolvimento
 
 O programa foi desenvolvimento em Python, utilizando algumas bibliotecas como beautifulsoup4, google-cloud-bigquery, Flask, requests, google-auth e gdown.
+>Mais abaixo, é instruido como instalar as depêndencias para executar os programas. 
+
 <br />
+
 # Credenciais
 
 As credencias para acesso a BigQuery estão armazenadas em uma fonte externa (Bucket Aws), durante a execução dos arquivos, é feito o download das credencias para a pasta local do projeto. 
+
+
 <br />
+
 # Como instalar:
 1- Clone o repositório:
 ```sh
@@ -42,6 +51,7 @@ Acesse o link abaixo, com a palavra a ser pesquisada para testar a API:
 ```sh
 http://127.0.0.1:5000/buscar?palavra_chave=
 ```
+>
 
 
 
