@@ -22,7 +22,7 @@ def buscar_noticia_por_palavra(client, id_dataset, id_tabela, palavra_chave):
         OR LOWER(autor) LIKE '%{palavra_chave.lower()}%'
         OR LOWER(titulo) LIKE '%{palavra_chave.lower()}%'
         OR LOWER(link) LIKE '%{palavra_chave.lower()}%'
-        LIMIT 15
+        LIMIT 50
     """
     
     query_job = client.query(query)  # Executa a consulta
@@ -73,4 +73,4 @@ def buscar_artigos():
         return jsonify({'mensagem': 'Nenhum artigo encontrado para a palavra-chave fornecida'}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
