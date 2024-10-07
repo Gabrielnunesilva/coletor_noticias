@@ -1,0 +1,6 @@
+beautifulsoup4
+google-cloud-bigquery
+Flask
+requests
+google-auth
+gdown
