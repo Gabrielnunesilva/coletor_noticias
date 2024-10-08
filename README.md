@@ -47,12 +47,12 @@ Para pesquisar por API,  execute o api_app.py
 <br />
 
 # Sobre api_app.py
-Disponibiliza as informações gravas na BigQuery (Google Cloud)  para consulta via api
+Disponibiliza as informações gravas na BigQuery (Google Cloud)  para consulta via api.
+<br />
 Acesse o link abaixo, com a palavra a ser pesquisada para testar a API:
 ```sh
 http://127.0.0.1:5000/buscar?palavra_chave=
 ```
->
 
 
 
