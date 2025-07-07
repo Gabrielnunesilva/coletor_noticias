@@ -10,7 +10,7 @@ Este repositório tem como objetivo, encontrar uma solução para fazer a raspag
 
 # Desenvolvimento
 
-O programa foi desenvolvimento em Python, utilizando algumas bibliotecas como beautifulsoup4, google-cloud-bigquery, Flask, requests, google-auth e gdown.
+O programa foi desenvolvido em Python, utilizando algumas bibliotecas como beautifulsoup4, google-cloud-bigquery, Flask, requests, google-auth e gdown.
 >Mais abaixo, é instruido como instalar as depêndencias para executar os programas. 
 
 <br />
